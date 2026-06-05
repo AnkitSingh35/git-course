@@ -7,6 +7,10 @@ public class Calculation {
         return a * b;
     }
 
+    public static int divide(int a, int b) {
+        return a / b;
+    }
+
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
@@ -15,5 +19,7 @@ public class Calculation {
 
         System.out.println("Sum is : " + add);
         System.out.println("Multiplication is : " + mul(add, b));
+        System.out.println("Division is : " + divide(add, b));
+
     }
 }
